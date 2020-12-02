@@ -27,13 +27,12 @@ bot.on('message', message => {
 
     if (command === 'verify') {
         bot.commands.get('verify').execute(message, args)
-    } else if (command === 'list') {
-        bot.commands.get('list').execute(message, args)
     } else if (command === 'verified') {
         bot.commands.get('verified').execute(message, args)
     } else if (command === 'howto') {
         bot.commands.get('howto').execute(message, args)
     }
 })
+ 
 
 bot.login(process.env.token)
