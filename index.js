@@ -16,7 +16,7 @@ var version = '0.9.0'
 bot.on('ready', () => {
     console.log('Im awake');
 
-    bot.user.setActivity('Verifiying Members', {type: "COMPETING"})
+    bot.user.setActivity("Verifying Members", {type: 'COMPETING'})
     bot.user.setStatus("dnd")
 })
 
