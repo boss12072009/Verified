@@ -11,7 +11,7 @@ for (const file of commandFiles) {
     bot.commands.set(command.name, command)
 }
 
-var version = '0.9.0'
+var version = '1.0.0'
 
 bot.on('ready', () => {
     console.log('Im awake');
